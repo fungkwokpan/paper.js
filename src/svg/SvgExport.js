@@ -287,7 +287,7 @@ new function() {
             if (entry.exportFilter
                     ? entry.exportFilter(item, value)
                     //: !parent || !Base.equals(parent[get](), value)
-                    : false
+                    : true
                 ) {
                 if (type === 'color' && value != null) {
                     // Support for css-style rgba() values is not in SVG 1.1, so

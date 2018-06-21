@@ -9,7 +9,7 @@
  *
  * All rights reserved.
  *
- * Date: Sun Oct 8 17:48:11 2017 +0200
+ * Date: Thu Jun 21 15:02:50 2018 +0800
  *
  ***
  *
@@ -14086,7 +14086,7 @@ new function() {
 				value = item[get]();
 			if (entry.exportFilter
 					? entry.exportFilter(item, value)
-					: false
+					: true
 				) {
 				if (type === 'color' && value != null) {
 					var alpha = value.getAlpha();
